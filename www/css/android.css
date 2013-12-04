@@ -1,0 +1,51 @@
+﻿/* Styling for Android devices */
+article > section:not(:nth-child(1)) {
+	display: none;
+}
+
+/* Login, Signup Forms */
+section form {
+	width: 98%; max-width: 400px; margin: 0 auto; text-align: left;
+}
+
+/* App Header */
+body {padding-top:4em;}
+section > header {
+	position: fixed; top: 0;
+	padding: 5px 0; margin: 0; width: 100%; text-align: left; background: dimgrey; color: whitesmoke;
+}
+section > header > h1 {
+	display: inline; vertical-align: middle; margin-left: 5%;
+}
+section > header > a:first-child {
+	display: inline-block !important; vertical-align: middle; border-radius: 0; line-height: 3em; padding-right: 5px;
+}
+section > header > a:first-child + h1 {
+	margin-left: 2px;
+}
+
+/* Dropdown Selectors */
+.dropdown-menu.select > li {
+	cursor: pointer;
+}
+.dropdown-menu.select > li:hover, .dropdown-menu.select > li:active {
+	background-color: #eeeeee;
+}
+.dropdown-menu.select > li[selected] {
+	font-weight: bold; background-color: lightgrey;
+}
+
+@media (min-device-width: 500px) {
+	.btn-group-vertical {
+		display: block; width: 80%; margin: 1em auto;
+	}
+	.btn, input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="search"] {
+		border-radius: 10px;
+	}
+	.btn-group-vertical > .btn:first-child:not(:last-child) {
+		border-top-right-radius: 10px;
+	}
+	.btn-group-vertical > .btn:last-child:not(:first-child) {
+		border-bottom-left-radius: 10px;
+	}
+}

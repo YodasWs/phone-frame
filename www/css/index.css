@@ -1,0 +1,24 @@
+﻿article, section { display: none; }
+
+p {
+	text-align: justify; width: 80%; margin: 1em auto; text-indent: 10%;
+}
+
+/*
+div#radar {
+	display: block; width: 20vmin; height: 20vmin;
+	position: fixed; top: 1vmin; right: 1vmin;
+	border: 2px solid white; border-radius: 50%;
+}
+/**/
+
+input, input:active {
+	outline: 0 none !important;
+}
+
+@media screen and (orientation: landscape) {
+}
+
+@media (min-device-width: 500px) {
+label { display: block; }
+}

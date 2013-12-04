@@ -1,0 +1,28 @@
+﻿/* Styling for iOS devices */
+article > section:not(:nth-child(1)) {
+	display: none;
+}
+article > section > header > a.glyphicon-chevron-left {
+	float: left; margin: 5px;
+}
+
+section#signup > form,
+section#login > form {
+	text-align: center;
+}
+
+/* App Header */
+body {
+	padding-top: 3em;
+}
+section > header {
+	position: fixed; top: 0;
+	padding: 5px 0; margin: 0; width: 100%; text-align: center; background: dimgrey; color: whitesmoke;
+}
+section > header > h1 {
+	margin: 0;
+}
+section > header > a:first-child {
+	float: left; display: block; height: 3em; line-height: 3em; margin-left: 5px;
+	-webkit-block-sizing: border-box; -moz-block-sizing: border-box; block-sizing: border-box;
+}

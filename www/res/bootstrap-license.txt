@@ -1,0 +1,5 @@
+Bootstrap is used under license.
+
+For more details, please go to
+
+http://getbootstrap.com/getting-started/#license-faqs

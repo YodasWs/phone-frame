@@ -1,0 +1,67 @@
+﻿/* https://github.com/phonegap/phonegap-start/blob/master/www/css/index.css */
+
+* { -webkit-tap-highlight-color: rbga(0,0,0,0); }
+body {
+	-webkit-touch-callout: none;	/* prevent callout to copy image, etc when tap to hold */
+	-webkit-text-size-adjust: none;	/* prevent webkit from resizing text to fit */
+	-webkit-user-select: none;	/* prevent copy paste, to allow, change 'none' to 'text' */
+	width: 100%; height: 100%; padding: 0; border: 0; margin: 0;
+	color: #080808; background: whitesmoke;
+}
+section:not(:first-of-type) {
+	display: none;
+}
+
+/* Loading Image, via http://cssload.net */
+#loading{position:fixed;width:128px;height:128px;top:0;left:0;z-index:100;
+width:100%;height:100%;margin:0;padding:0;border:0 none;background:black;
+-webkit-border-sizing:border-box;-moz-border-sizing:border-box;border-sizing:border-box;
+}.f_circleG{position:absolute;background-color:rbga(0,0,0,0);
+height:23px;width:23px;
+-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;
+-webkit-animation-name:f_fadeG;-moz-animation-name:f_fadeG;animation-name:f_fadeG;
+-webkit-animation-duration:1.04s;-moz-animation-duration:1.04s;animation-duration:1.04s;
+-webkit-animation-iteration-count:infinite;-moz-animation-iteration-count:infinite;animation-iteration-count:infinite;
+-webkit-animation-direction:linear;-moz-animation-direction:linear;animation-direction:linear;
+}#frotateG_01{
+left:-webkit-calc(50% - 64px);left:-moz-calc(50% - 64px);left:calc(50% - 64px);
+top:-webkit-calc(50% - 64px + 52px);top:-moz-calc(50% - 64px + 52px);top:calc(50% - 64px + 52px);
+-webkit-animation-delay:0.39s;-moz-animation-delay:0.39s;animation-delay:0.39s;
+}#frotateG_02{
+left:-webkit-calc(50% - 64px + 15px);left:-moz-calc(50% - 64px + 15px);left:calc(50% - 64px + 15px);
+top:-webkit-calc(50% - 64px + 15px);top:-moz-calc(50% - 64px + 15px);top:calc(50% - 64px + 15px);
+-webkit-animation-delay:0.52s;-moz-animation-delay:0.52s;animation-delay:0.52s;
+}#frotateG_03{
+left:-webkit-calc(50% - 64px + 52px);left:-moz-calc(50% - 64px + 52px);left:calc(50% - 64px + 52px);
+top:-webkit-calc(50% - 64px);top:-moz-calc(50% - 64px);top:calc(50% - 64px);
+-webkit-animation-delay:0.65s;-moz-animation-delay:0.65s;animation-delay:0.65s;
+}#frotateG_04{
+right:-webkit-calc(50% - 64px + 15px);right:-moz-calc(50% - 64px + 15px);right:calc(50% - 64px + 15px);
+top:-webkit-calc(50% - 64px + 15px);top:-moz-calc(50% - 64px + 15px);top:calc(50% - 64px + 15px);
+-webkit-animation-delay:0.78s;-moz-animation-delay:0.78s;animation-delay:0.78s;
+}#frotateG_05{
+right:-webkit-calc(50% - 64px);right:-moz-calc(50% - 64px);right:calc(50% - 64px);
+top:-webkit-calc(50% - 64px + 52px);top:-moz-calc(50% - 64px + 52px);top:calc(50% - 64px + 52px);
+-webkit-animation-delay:0.91s;-moz-animation-delay:0.91s;animation-delay:0.91s;
+}#frotateG_06{
+bottom:-webkit-calc(50% - 64px + 15px);bottom:-moz-calc(50% - 64px + 15px);bottom:calc(50% - 64px + 15px);
+right:-webkit-calc(50% - 64px + 15px);right:-moz-calc(50% - 64px + 15px);right:calc(50% - 64px + 15px);
+-webkit-animation-delay:1.04s;-moz-animation-delay:1.04s;animation-delay:1.04s;
+}#frotateG_07{
+bottom:-webkit-calc(50% - 64px);bottom:-moz-calc(50% - 64px);bottom:calc(50% - 64px);
+left:-webkit-calc(50% - 64px + 52px);left:-moz-calc(50% - 64px + 52px);left:calc(50% - 64px + 52px);
+-webkit-animation-delay:1.17s;-moz-animation-delay:1.17s;animation-delay:1.17s;
+}#frotateG_08{
+bottom:-webkit-calc(50% - 64px + 15px);bottom:-moz-calc(50% - 64px + 15px);bottom:calc(50% - 64px + 15px);
+left:-webkit-calc(50% - 64px + 15px);left:-moz-calc(50% - 64px + 15px);left:calc(50% - 64px + 15px);
+-webkit-animation-delay:1.30s;-moz-animation-delay:1.30s;animation-delay:1.30s;
+}@-webkit-keyframes f_fadeG{
+0%{background-color:#888AFF}
+100%{background-color:rgba(0,0,0,0)}
+}@-moz-keyframes f_fadeG{
+0%{background-color:#888AFF}
+100%{background-color:rgba(0,0,0,0)}
+}@keyframes f_fadeG{
+0%{background-color:#888AFF}
+100%{background-color:rgba(0,0,0,0)}
+}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0"
+	versionCode="1" version="0.0.1" id="ws.yodas.phone-frame">
+
+<name>App Framework</name>
+<description>Mobile app framework for PhoneGap</description>
+<author href="http://yodas.ws" email="samuel@yodas.ws">Samuel B Grundman</author>
+
+<preference name="orientation" value="default"/>
+<!--
+<preference name="fullscreen" value="true"/>
+-->
+
+<!--
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/device" />
+<feature name="http://api.phonegap.com/1.0/camera"/>
+-->
+
+<gap:platform name="android"/>
+<!--
+<gap:platform name="ios"/>
+<gap:platform name="winphone"/>
+-->
+
+<!--
+<access origin="http://" />
+-->
+</widget>
